@@ -3,7 +3,7 @@ import cv2
 frameWidth = 640
 frameHeight = 480
 
-cap = cv2.VideoCapture("Resources/testVideo.mp4")
+cap = cv2.VideoCapture("Resources/video1.mp4")
 
 while True:
     success, img = cap.read()
