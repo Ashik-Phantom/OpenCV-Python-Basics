@@ -8,7 +8,7 @@ img = cv2.imread('Resources/charizard.png')
 imghor = np.hstack((img, img))   # Horizontal Join
 imgver = np.vstack((img, img))   # Vertical Join
 
-cv2.imshow("horizontal", imghor)
+cv2.imshow("horizontal", imghor) 
 cv2.imshow("vertical", imgver)
 
 cv2.waitKey(0)
