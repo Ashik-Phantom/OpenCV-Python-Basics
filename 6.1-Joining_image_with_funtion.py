@@ -28,7 +28,7 @@ def stackImages(imgArray, scale, lables = []):
         for x in range(0, rows):
             hor[x] = np.hstack(imgArray[x])
             hor_con[x] = np.concatenate(imgArray[x])
-        ver = np.vstack(hor)
+        ver = np.vstack(hor) 
         ver_con = np.concatenate(hor)
     else:
         for x in range(0, rows):
